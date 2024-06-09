@@ -3,8 +3,8 @@ import bodyParser from 'body-parser';
 import cors from 'cors';
 import dotenv from 'dotenv';
 
-import Connection from './database/db.js';
-import Routes from './routes/Routes.js';
+import Connection from '../database/db.js';
+import Routes from '../routes/Routes.js';
 
 
 dotenv.config();
